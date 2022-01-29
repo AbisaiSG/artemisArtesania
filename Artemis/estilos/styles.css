@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Licorice';
+    src: url(../fuentes/Licorice-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fuentes/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Waterfall';
+    src: url(../fuentes/Waterfall-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nautigal';
+    src: url(../fuentes/TheNautigal-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url(../fuentes/NotoSans-Regular.ttf);
+}
+
+
+
+header{
+    background-color: chocolate;
+    
+}
+
+
+
+.nav-link{
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: wheat;
+
+}
+
+.nav-link active{
+    background-color: blanchedalmond;
+    color: saddlebrown;
+}
+
+a { 
+    color: white;
+    
+    text-decoration: none;
+    
+    font-size: 15px;
+    
+    position: center;
+    
+     }
+
+
+#titulos{
+background-color: bisque;
+color: saddlebrown;
+font-family: 'Licorice';
+display: grid;
+grid-template-columns: repeat(3) 1fr;
+grid-template-rows: repeat(2) 1fr;
+justify-items: center;
+grid-template-areas: 
+". t1 ."
+". t2 ."
+;
+}
+
+h1{
+    font-size: 70px;
+    grid-area: t1;
+}
+
+h2{
+    font-size: 60px;
+    grid-area: t2;
+}
+
+.contenedorTitulos{
+background-color: bisque;
+display: grid;
+grid-template-columns: repeat(3) 1fr;
+grid-template-rows: 1fr;
+grid-template-areas:
+". ts ."
+;
+justify-content: center;
+}
+
+.tituloSecciones{
+grid-area: ts;
+background-color: bisque;
+color: saddlebrown;
+font-family: 'Licorice';
+font-size: 60px;
+}
+
+.seccionInicio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: bisque;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "im par"
+    ;
+}
+
+
+.imIn{
+    width: 320px;
+    height: 280;
+}
+
+.imagenInicio{
+    grid-area: im;
+}
+
+h3{
+    font-family: 'Nautigal';
+    font-size: 40px;
+}
+
+.parrafoInicio{
+    width: 400px;
+    font-family: 'Noto';
+    color: sienna;
+    grid-area: par;
+}
+
+#parrafoVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: saddlebrown;
+    font-family: 'Noto';
+}
+
+#videoTelar{
+position: relative;
+}
+
+#seccionVentas{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenesProductos{
+    width: 320px;
+    height: 430px;
+    padding: 30px;
+    display: flex;
+}
+
+.redesCompra{
+    color: blueviolet;
+    pad: 0px;
+}
+
+footer{
+    background-color: chocolate;
+    font-family: 'Raleway';
+    height: 200px;
+    
+}
+
+h5{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.container-fluid{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#imagenCompras{
+    width: 480px;
+    height: 480px;
+}
+
+.redesSociales{
+    padding: 10px;
+}
+
